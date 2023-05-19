@@ -1,0 +1,61 @@
+program
+struct str1
+{
+    int a;
+    bool t;
+}
+struct str2
+{
+    int a;
+    bool t;
+    string s;
+}
+str1 a1;
+str1 a11; 
+str2 a2;
+ int a = 51, b = 6, c, i = 10;
+ string x = "abc", y, z = "abcd";
+{   
+    
+    a1.a = 42;
+    a1.t = false;
+    a11.t = true;
+    
+    a2.a = 100;
+    a2.t = false;
+    a2.s = "wdqd";
+    a11 = a1;
+    
+    c = (a + b) * 2; 
+    write(c);
+    
+    if (c >= 100 or x == z)
+    {
+        read (y);
+        write (y);
+        write (x + y + z, c);
+    }
+    else
+        c = a = 21;
+    while (c > 100)
+    {
+        c = c - 5;
+        write (c);
+        x = x + "step";
+    }
+    
+    write (x, a11.a, a11.t and a11.t);
+    for (b; b > 0; b = b - 1)
+    {
+        write(b/3 > 0);
+        for (i; i > 0; i = i - 1)
+        {
+            write(i);
+            break;
+        }
+    }
+    
+    read(a11.t);
+    
+    write(a11.t);
+}
